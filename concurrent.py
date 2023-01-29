@@ -17,3 +17,9 @@ while True:
             pass
     except speech_recognition.UnknownValueError:
             speak("Pardon me, Could grasp it. Could you please repeat")
+button = tk.Button(root ,text=" TAP ME", command=main)
+button["bg"]="red"
+button["font"]=("Times New Roman",25)
+button.config(width=30,height= 30)
+button.pack()
+root.mainloop()
